@@ -2,7 +2,7 @@
 
 ## Cloning repo
 ```
-git clone https://github.com/1Rayko/cbruh 
+git clone https://github.com/1Rayko/cbruh.git
 ```
 
 ## Building
