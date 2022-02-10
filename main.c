@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+
+
+/*  UwU   */
 int main(){
     const char *dec_1 = R"""(
 
@@ -25,8 +28,6 @@ printf(j);
 )""";
     
 
-
-    /*---Encode---*/
     
     const char *banner = R"""(
   _______________________
@@ -43,20 +44,19 @@ printf(j);
     char str[256];
     printf("Type string: ");
     scanf("%[^\n]",str);
-    //printf("You source string: %s\n",str);
-    //printf("Length of string: %d\n",strlen(str));
+
 
     char* b = malloc(strlen(str));
     printf(dec_1);
-    //printf("`0x` data: ");
+
     for (int i=0;i<=strlen(str);++i){
         unsigned int b = str[i]^0x81;
-        //res[i] = snprintf(buffer,b,"0x%x");
+
         if (i == strlen(str)){
-        printf( "0x%x\n",b );// Вывод 0xea, 0xec и тп
+            printf( "0x%x\n",b );
         }
         else{
-        printf( "0x%x,",b );// Вывод 0xea, 0xec и тп
+            printf( "0x%x,",b );
         }
 
     }
