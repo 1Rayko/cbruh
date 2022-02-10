@@ -12,4 +12,4 @@ cd cbruh && gcc main.c -o cbruh
 ```./cbruh ```
 
 
-[img](https://i.imgur.com/I77z52c.png)
+<img scr='https://i.imgur.com/I77z52c.png' alt='img'/>
